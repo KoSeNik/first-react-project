@@ -1,12 +1,13 @@
-//  начинается императивный стиль
+//  здесь декларативный стиль просто объявляем что хотим получить
 import logo from "./logo.svg";
 import "./App.css";
 import { createElement } from "react";
 
+//  здесь уже начинается императивный стиль, есть логика
 export const App = () => {
 	let currentYear = new Date().getFullYear();
 	return (
-		//  начинается декларативный стиль
+		//  а тут снова декларативный стиль
 		createElement(
 			"div",
 			{
